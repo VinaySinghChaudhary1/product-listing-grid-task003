@@ -1,0 +1,1 @@
+document.getElementById('swap-button').addEventListener('click', function() { var card1 = document.getElementById('product-card-1'); var card2 = document.getElementById('product-card-2'); var parent = card1.parentNode; parent.insertBefore(card2, card1); });
